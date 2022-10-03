@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-02 11:33:41 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTdGQjZIR1U7MjAyMi0xMC0wMjsxMTozMTowNyBQTTszMzE0"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTdGQjZIR1U7MjAyMi0xMC0wMjsxMTozMzo0MSBQTTsxOzM0MjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lstnme" type="String" array="False" size=""/>
+            <declare name="crdts" type="Integer" array="False" size=""/>
+            <input variable="lstnme"/>
+            <input variable="crdts"/>
+            <output expression="lstnme &amp; &quot;'s tuition is $&quot; &amp; crdts*250+100" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
