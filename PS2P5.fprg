@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-02 11:44:46 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTdGQjZIR1U7MjAyMi0xMC0wMjsxMTozNzo0MiBQTTszMzE5"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTdGQjZIR1U7MjAyMi0xMC0wMjsxMTo0NDo0NiBQTTsxOzM0Mjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p" type="Real" array="False" size=""/>
+            <declare name="dsct" type="Real" array="False" size=""/>
+            <declare name="dsctofp" type="Real" array="False" size=""/>
+            <declare name="pdsctd" type="Real" array="False" size=""/>
+            <input variable="p"/>
+            <input variable="dsct"/>
+            <assign variable="pdsctd" expression="p-(p*dsct)"/>
+            <assign variable="dsctofp" expression="p*dsct"/>
+            <output expression="&quot;The discount is $&quot; &amp; dsctofp &amp; &quot; &quot; &amp; &quot;the price after the discount is $&quot; &amp; pdsctd" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
