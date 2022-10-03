@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-02 11:08:46 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTdGQjZIR1U7MjAyMi0xMC0wMjswOToyODo0MSBQTTszMzI1"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTdGQjZIR1U7MjAyMi0xMC0wMjsxMTowODo0NiBQTTsxOzM0Mjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="quant" type="Real" array="False" size=""/>
+            <declare name="ppu" type="Real" array="False" size=""/>
+            <input variable="quant"/>
+            <input variable="ppu"/>
+            <output expression="&quot;Total price is &quot; &amp; quant*ppu" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>
