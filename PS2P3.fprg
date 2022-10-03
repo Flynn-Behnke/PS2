@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-02 11:26:23 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTdGQjZIR1U7MjAyMi0xMC0wMjsxMToyMjoyNyBQTTszMzE2"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTdGQjZIR1U7MjAyMi0xMC0wMjsxMToyNjoyMyBQTTsxOzM0MjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="l" type="Real" array="False" size=""/>
+            <declare name="w" type="Real" array="False" size=""/>
+            <input variable="l"/>
+            <input variable="w"/>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="l*w"/>
+            <assign variable="c" expression="2*w+2*l"/>
+            <output expression="&quot;Area is &quot; &amp; a &amp; &quot; &quot; &amp; &quot;Circumference is &quot; &amp; c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
